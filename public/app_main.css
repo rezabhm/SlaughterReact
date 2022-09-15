@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Shabanam';
+    src: url(./fonts/Shabnam.ttf) ;
+}
+
+.font-shabnam {
+
+    font-family: Shabnam, cursive;
+
+}
+
+.header2 {
+
+    font-size: 1.5vw;
+    color: #6750A4;
+
+}
+
+.btn-blur-size {
+
+    width: 30vm;
+    height : 50vm;
+
+
+}
+
+.login-btn-color {
+
+    background-color: rgb(50,100,50);
+    margin: 20px;
+    width:50%;
+
+}
+
+.login-background {
+
+
+    direction:rtl;
+    background-color:rgba(50,50,50,0.9);
+    border-radius:25px;
+
+
+}
+
+.login-box {
+
+    direction: rtl;
+    border: solid;
+    background-color: rgba(50,50,50,0.4);
+
+}
+
+.enter-header {
+
+    font-size: 3vw;
+    color: azure;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.tableHead {
+
+
+    font-size: 2.0vw;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+
+
+}
+
+.tableRow {
+
+
+    font-size: 1.75vw;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    height:20%;
+
+
+}
+
+
+.tableRowOrderType {
+
+
+    font-size: 0.75vw;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+
+
+}
+
+.purpleButton {
+
+    background-color: #6750A4;
+    color: aliceblue;
+    border-radius: 50px;
+
+}
+
+.whiteButton {
+
+    color:#6750A4;
+    border-color:#6750A4;
+    background-color:rgba(0,0,0,0);
+
+}
+
+.font-link {
+    font-family: 'B-Nazanin', cursive;
+  }
+
+.production-main-header {
+
+
+    position: absolute;
+    height:100%;
+    width: 50%;
+    text-align: right;
+    color: #4A4458;
+    right:0%;
+    font-size: 1.75vw;
+    padding-right: 10%;
+
+}  

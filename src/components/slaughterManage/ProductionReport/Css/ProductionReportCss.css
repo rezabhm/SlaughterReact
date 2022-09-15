@@ -1,0 +1,44 @@
+.main-body {
+
+    height:2000px;
+    width: 100%;
+
+}
+
+.filterHeader {
+
+    width: 100%;
+    height:100%
+
+
+}
+
+.Button {
+
+    color: aliceblue;
+    border-radius: 50px;
+    width: 30%;
+    background-color: #6750A4;
+
+
+}
+
+.PuprpleButtonColor {
+
+
+    background-color: #6750A4;
+    
+
+}
+
+.filter-popup-div {
+
+    position: absolute;
+    width: 20%;
+    height:500px;
+    right: 40% ;
+    background-color: rgb(255,255,255);
+    border: 2px solid #6750A4;
+    border-radius: 5px;
+
+}
