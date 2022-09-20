@@ -613,7 +613,6 @@ class RightDashbord extends Component {
                 width: '25%',
                 right: '0px',
                 top:'0px',
-                border: '1px solid #E6E1E5',
                 backgroundColor: 'rgba(248,248,248,8.0)',
                 border:'2px solid #6750A4'
 

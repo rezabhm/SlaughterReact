@@ -987,7 +987,6 @@ class LiveDriverList extends Component {
                                 borderRadius:'0px 10px 10px 0px',
                                 right:'0%',
                                 width:'20%',
-                                fontSize:'1.0vw',
                                 textAlign:'center',
                                 fontSize:'1.75vw',
 

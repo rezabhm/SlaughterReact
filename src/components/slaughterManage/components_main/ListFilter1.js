@@ -3,7 +3,7 @@ import { Autocomplete } from "@mui/material";
 import {button_text_white, button_grid, button_white, filter_grid} from '../Sale/css/main'
 
 
-function ListFilter1 (props){
+const ListFilter1 =(props)=>{
 
     return (
 
@@ -11,7 +11,7 @@ function ListFilter1 (props){
 
             <Grid items xs={3} style={button_grid}>
                 
-                <Button variant="contained" style={button_white}>
+                <Button variant="contained" style={button_white} onClick={props.filterClick}>
 
                     <Typography style={button_text_white}>اعمال فیلتر</Typography>
 
@@ -38,6 +38,8 @@ function ListFilter1 (props){
                         width:'90%',
                         height:'100%',
                         fontSize:'3vw',
+                        textAlign:'right',
+                        direction:'rtl'
 
                     }}
 
@@ -45,7 +47,7 @@ function ListFilter1 (props){
 
                     renderInput={ param=>(
 
-                        <TextField {...param} label={props.id} variant="outlined" fullWidth style={{fontSize:'2vw'}} />
+                        <TextField {...param} label={props.id} variant="outlined" fullWidth style={{fontSize:'2vw', textAlign:'right',direction:'rtl'}} />
 
                     )}
 
@@ -54,14 +56,9 @@ function ListFilter1 (props){
                 
                 />
 
-
             </Grid>
 
-
         </Grid>
-
-
-
 
     )
 

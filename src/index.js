@@ -22,6 +22,7 @@ import './index.css';
 
 const main = createRoot(document.getElementById('root'));
 
+
 main.render(
 
     <Router>
@@ -46,9 +47,7 @@ main.render(
                 <Route path='/production/Report/detail/turkey/' element={<ProductionReportDetailTurkey />}  />
                 <Route path='/production/Report/detail/quail/' element={<ProductionReportDetailQuail />}  />
 
-                <Route path='/sale/watchman/car/list/' element={<SaleWatchMan />}  />
-
-
+                <Route path='/sale/watchman/car/list/' element={<SaleWatchMan d={'d'} />}  />
 
             </Routes>
     </Router>
